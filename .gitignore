@@ -1,0 +1,22 @@
+
+# Configuration and secrets
+*.pem
+*.key
+*.crt
+*.cer
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Temporary files
+*.log
+*.tmp
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

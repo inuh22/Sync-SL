@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -e
+
+APP_DIR="/opt/sync-sl"
+PYTHON="$APP_DIR/.venv/bin/python"
+APP="$APP_DIR/app.py"
+
+if [[ ! -f "$APP" ]]; then
+    echo "[X] Sync_SL application not found"
+    exit 1
+fi
+
+if [[ ! -f "/etc/sync-sl/config.ini" ]]; then
+    echo "[X] Configuration file not found"
+    exit 1
+fi
+
+exec "$PYTHON" "$APP" "$@"
