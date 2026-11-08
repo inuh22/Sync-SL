@@ -133,20 +133,6 @@ sudo ./uninstall.sh
 
 The uninstall process removes the application and launcher while preserving the configuration directory.
 
-## Project Structure
-
-```text
-Sync_SL/
-├── app.py
-├── ini_parser.py
-├── requirements.txt
-├── install.sh
-├── uninstall.sh
-├── config.ini
-├── README.md
-└── .gitignore
-```
-
 ## Roadmap
 
 - [x] INI configuration parsing
@@ -161,7 +147,6 @@ Sync_SL/
 - [ ] Reverse proxy configuration testing
 - [ ] Automatic Nginx/HAProxy reload
 - [ ] Logging and detailed execution reports
-- [ ] Certbot deploy-hook integration
 
 ## Technologies
 
@@ -169,7 +154,6 @@ Sync_SL/
 - **Paramiko** — SSH and SFTP connectivity
 - **ConfigParser** — INI configuration management
 - **Linux** — Deployment environment
-- **Nginx / HAProxy** — Reverse proxy targets
 
 ## Disclaimer
 
@@ -179,4 +163,4 @@ It is not yet intended for unattended production use. Review the configuration, 
 
 ## License
 
-Choose a license before distributing the project. If you want others to use, modify, and redistribute it, consider the MIT License.
+MIT
