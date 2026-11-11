@@ -63,7 +63,7 @@ It connects to remote Linux servers where SSL/TLS certificates are stored, retri
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Sync_SL.git
+git clone https://github.com/inuh22/Sync-SL.git
 cd Sync_SL
 ```
 
